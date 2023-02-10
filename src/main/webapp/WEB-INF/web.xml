@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+<!--    <servlet>-->
+<!--        <servlet-name>AddServlet</servlet-name> // The name has to be unique but also has to be same as servlet name in servlet mapping-->
+<!--        <servlet-class>com.addservlet.AddServlet</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>AddServlet</servlet-name>-->
+<!--        <url-pattern>/add</url-pattern> // this will call the servlet class-->
+<!--    </servlet-mapping>-->
+
+
+<!--    <servlet>-->
+<!--        <servlet-name>HelloServlet</servlet-name> // The name has to be unique but also has to be same as servlet name in servlet mapping-->
+<!--        <servlet-class>com.example.webapplication.HelloServlet</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>HelloServlet</servlet-name>-->
+<!--        <url-pattern>/Hello</url-pattern>  // the same name as request dispatcher-->
+<!--    </servlet-mapping>-->
+
+<!--    Servlet Config and servlet context-->
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>Sandip</param-value>
+    </context-param>
+    <context-param>
+        <param-name>phone</param-name>
+        <param-value>Redmi</param-value>
+    </context-param>
+
+
+
+</web-app>
